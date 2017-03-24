@@ -47,6 +47,5 @@ If you go to http://localhost:5555/ in your browser you'll see a simple form for
 
 ## License
 
-This sample application is distributed under the
-[Apache License, Version 2.0](http://www.apache.org/licenses/LICENSE-2.0).
+This sample application is distributed under the MIT license.
 
