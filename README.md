@@ -27,7 +27,7 @@ It's also possible to configure your credentials via a configuration file or
 directly in source. See the AWS SDK for Node.js [Developer Guide](http://docs.aws.amazon.com/AWSJavaScriptSDK/guide/node-configuring.html)
 for more information.
 
-Update the `config.json` file with your settings
+Update the `config.js` file with your settings
 
     module.exports.collectionName = "YourCollectionName";
     module.exports.region = "us-east-1";
