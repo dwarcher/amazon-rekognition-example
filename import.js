@@ -53,7 +53,7 @@ function indexFaces() {
 		var bitmap = fs.readFileSync(file.path);
 
 		rekognition.indexFaces({
-		   "CollectionId": collectionName,
+		   "CollectionId": config.collectionName,
 		   "DetectionAttributes": [ "ALL" ],
 		   "ExternalImageId": name,
 		   "Image": { 
